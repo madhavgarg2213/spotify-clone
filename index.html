@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Spotify - Web Player: Music for everyone</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="spotifycs.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav1" style="opacity:1">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav1">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#"> Search</a>
+                </div>
+            </div>
+            <div class="lib">
+                <div class="options">
+                    <div class="lib1 nav1">
+                        <i class="fa-solid fa-folder-open"></i>
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    </div>
+                    <div class="libox">
+                    <div class="box">
+                        <p class="box1">Create your first playlist</p>
+                        <p class="box2">It's easy, we'll help you</p>
+                        <button class="badge">Create Playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box1">Let's find some Podcast to follow</p>
+                        <p class="box2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+                <div class="boxes"></div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="uper">
+                <div class="arow">
+                    <i class="fa-solid fa-less-than"></i>
+                    <i class="fa-solid fa-greater-than"></i>
+                </div>
+                <div class="log">
+                    <p class="sign">Sign up</p>
+                    <button class="badge"> Log in</button>
+                </div>
+            </div>
+        
+            <h2>Recently Played</h2>
+            <div class="card-container">
+            <div class="card">
+                <img src="top50.jpg" class="card-img">
+                <p class="card-title">Top 50 - Global</p>
+                <p class="card-info">Your daily updates of the most played track...</p>
+            </div>
+            </div>
+            <h2>Trending now near you</h2><br>
+            <div class="card-container">
+            <div class="card">
+                <img src="1.jpg" class="card-img">
+                <p class="card-title">YO Rap Baby!</p>
+                <p class="card-info">Click to explore</p>
+            </div>
+            <div class="card">
+                <img src="2.jpg" class="card-img">
+                <p class="card-title">Knock Knock! It's ROCK!!</p>
+                <p class="card-info">Click to explore</p>
+            </div>
+            <div class="card">
+                <img src="3.png" class="card-img">
+                <p class="card-title">Let's Jazzzzzzz</p>
+                <p class="card-info">Click to explore</p>
+            </div>
+        </div>
+        <h2>Featured Charts</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="4.jpg" class="card-img">
+                <p class="card-title">Top 50 - INDIA</p>
+                <p class="card-info">Your daily updates of the most played track...</p>
+            </div>
+            <div class="card">
+                <img src="5.jpg" class="card-img">
+                <p class="card-title">INDIA'S BEST</p>
+                <p class="card-info">Your daily updates of the most played track...</p>
+            </div>
+            <div class="card">
+                <img src="top50.jpg" class="card-img">
+                <p class="card-title">Top 50 - Global</p>
+                <p class="card-info">Your daily updates of the most played track...</p>
+            </div>
+            </div>
+            
+            <br><br><br><br><hr><br><br><br><br><br><br><br>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img class="choti" src="2.jpg">
+               <div class="h"><p class="art">RAFTAAR</p>
+                All Black ~ 2015 ~ Fav...</div>
+            </div>
+            <div class="player">
+                <div class="u">
+                    <span class="material-symbols-outlined">
+                        shuffle
+                        </span>
+                    <span class="material-symbols-outlined">
+                            fast_rewind
+                            </span>
+                    <i class="fa-solid fa-play"></i>
+                    <span class="material-symbols-outlined">
+                        fast_forward
+                        </span>
+                    <span class="material-symbols-outlined">
+                            repeat
+                            </span>
+                </div>
+                <div class="b">
+                    <span class="time">0:00</span>
+                    <input type="range" min="0" max="100" class="progress">
+                    <span class="endtime">3:33</span>
+                </div>
+            </div>
+            
+            <div class="cont">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-headphones-simple"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" min="0" max="100" class="k">
+                
+            </div>
+        
+        </div>
+     </body>
+</html>
